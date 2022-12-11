@@ -1,5 +1,5 @@
-#include "../command.h";
-#include <iostream>;
+#include "../command.h"
+#include <iostream>
 
 using namespace std;
 
@@ -15,6 +15,7 @@ class AdditionCommand : public Command {
 
         double execute() {
             result = f_operand1 + f_operand2;
+            return result;
         }
 
 
