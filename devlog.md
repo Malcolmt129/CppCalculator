@@ -21,4 +21,12 @@
     the first way that I have learned to do polymorphism, idk.
 
     Then answer is, since there are no such things as interfaces in C++, I could make interface
-    by creating an abstract class that has all pure virtual methods. 
+    by creating an abstract class that has all pure virtual methods.
+
+## 12/11/2022
+    I had an issue with the case of including the files multiple times and the compiler yelling at me. 
+    I need to figure out how to mitigate this issue for future references. I've also been trying out 
+    the ways to do file management in c++. Honestly it seems easy enough. Kind of like khow you navigate
+    files in the command line. Will find out how to protect against multiple includes and have a solution
+    posted here.
+    
