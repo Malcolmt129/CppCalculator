@@ -29,4 +29,18 @@
     the ways to do file management in c++. Honestly it seems easy enough. Kind of like khow you navigate
     files in the command line. Will find out how to protect against multiple includes and have a solution
     posted here.
+
+    Solution to multi-include problem:
+    First of all chatGPT is fucking insane lol. Anyway you use the macro ifndef at the top and then define
+    the header as per usual at the end, you end the if statement. 
+
+    So its like:
+        ```#ifndef MY_HEADER_H
+            #define MY_HEADER_H
+
+            // The contents of the header file go here
+
+        #endif // MY_HEADER_H ```
     
+    This is from the bot... Idk if I should reference it or something. I just feel bad for "stealing" from 
+    it. 
