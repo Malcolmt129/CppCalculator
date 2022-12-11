@@ -1,4 +1,5 @@
-
+#ifndef COMMAND_H
+#define COMMAND_H
 class Command{
     public:
     virtual double execute() = 0;
@@ -6,5 +7,7 @@ class Command{
     virtual void printRes() = 0; 
 };
 
+
+#endif COMMAND_H
 
 
