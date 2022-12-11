@@ -8,6 +8,6 @@ class Command{
 };
 
 
-#endif COMMAND_H
+#endif
 
 

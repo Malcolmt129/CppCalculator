@@ -1,4 +1,5 @@
 #include "./src/addition.cpp"
+#include "command.h"
 
 int main() {
 
