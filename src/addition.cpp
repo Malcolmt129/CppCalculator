@@ -18,6 +18,10 @@ class AdditionCommand : public Command {
             return result;
         }
 
+        double undo() {
+            result -= result;
+            return result;
+        }
 
         void printRes() {
             cout << result << "\n";
