@@ -43,4 +43,10 @@
         #endif // MY_HEADER_H ```
     
     This is from the bot... Idk if I should reference it or something. I just feel bad for "stealing" from 
-    it. 
+    it.
+
+## 06/26/2023
+    Look at how long it's been since I added anything to this project... I still no nothing about C++. 
+    And I'm changing the functionality of this project. I don't want to go the calculator route. But I will
+    be writing code to run different mathematical functions and use the math to learn C++ and math needed for
+    quantitative development. 
